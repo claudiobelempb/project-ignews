@@ -1,0 +1,19 @@
+.subscribe_button {
+  font-size: 1.3rem;
+  color: var(--black-500);
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0em;
+  width: 17rem;
+  height: 4rem;
+  border-radius: 3rem;
+  background: var(--yellow-500);
+
+  svg:first-child {
+    margin-right: 0.35rem;
+  }
+
+  svg:last-child {
+    margin-left: 0.35rem;
+  }
+}

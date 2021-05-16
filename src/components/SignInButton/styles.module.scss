@@ -1,0 +1,22 @@
+.sign_in_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-300);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  height: 3rem;
+  width: 218px;
+  border-radius: 3rem;
+  background: var(--black-500);
+
+  svg:first-child {
+    margin-right: 0.35rem;
+  }
+
+  svg:last-child {
+    margin-left: 0.35rem;
+  }
+}
